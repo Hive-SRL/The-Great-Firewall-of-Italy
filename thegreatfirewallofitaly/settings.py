@@ -37,7 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'thegreatfirewall.apps.ThegreatfirewallConfig'
+    'thegreatfirewall.apps.ThegreatfirewallConfig',
+    "django_cron"
+]
+CRON_CLASSES = [
+    "thegreatfirewall.check_ticket"
 ]
 
 MIDDLEWARE = [
@@ -127,3 +131,5 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+PIRACY_URL = ''
