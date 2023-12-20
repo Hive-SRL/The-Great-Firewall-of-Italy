@@ -9,13 +9,17 @@ class TicketPS(models.Model):
     created_by_name = models.CharField(max_length=100)
     status = models.CharField(max_length=100)
     internal_status = models.CharField(max_length=100)
+    class Meta:
+        verbose_name_plural= "TicketPS"
 
 
 class FqdnPS(models.Model):
     ticket_id = models.ForeignKey(TicketPS, on_delete=models.CASCADE)
-    url = models.CharField(100)
-    status = models.CharField(100)
-    dns_status = models.CharField(50)
+    url = models.CharField(max_length=100)
+    status = models.CharField(max_length=100)
+    dns_status = models.CharField(max_length=50)
+    class Meta:
+        verbose_name_plural= "FqdnPS"
 
 
 class IPv4PS(models.Model):
@@ -23,6 +27,8 @@ class IPv4PS(models.Model):
     address = models.CharField(max_length=100)
     status = models.CharField(max_length=100)
     bgp_status = models.CharField(max_length=50)
+    class Meta:
+        verbose_name_plural= "IPv4PS"
 
 
 class IPv6PS(models.Model):
@@ -30,3 +36,5 @@ class IPv6PS(models.Model):
     address = models.CharField(max_length=100)
     status = models.CharField(max_length=100)
     bgp_status = models.CharField(max_length=50)
+    class Meta:
+        verbose_name_plural= "IPv6PS"
