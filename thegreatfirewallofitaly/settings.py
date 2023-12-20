@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-56b@+c2gomhq7vrq4kd@avajipz2n7zu6a%z*mev3e!*tbb&de
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -76,8 +76,12 @@ WSGI_APPLICATION = 'thegreatfirewallofitaly.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'thegreatfirewall',
+        'USER': 'thegreat',
+        'PASSWORD': 'yhiQi8S84N0V',
+        'HOST': 'localhost',
+        'PORT': '3306'
     }
 }
 
