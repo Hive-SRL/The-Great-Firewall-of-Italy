@@ -1,5 +1,7 @@
 PIRACY SHIELD FOR ISP IMPLEMENTATION
+
 Disclaimer
+
 While Hive s.r.l. make every effort to deliver high quality products, we do not guarantee that our products are free from defects. Our software is provided “as is," and you use the software at your own risk.
 
 We make no warranties as to performance, merchantability, fitness for a particular purpose, or any other warranties whether expressed or implied.
