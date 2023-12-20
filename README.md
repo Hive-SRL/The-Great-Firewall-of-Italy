@@ -6,4 +6,4 @@ We make no warranties as to performance, merchantability, fitness for a particul
 
 No oral or written communication from or information provided by Hive s.r.l shall create a warranty.
 
-Under no circumstances shall Hive s.r.l be liable for direct, indirect, special, incidental, or consequential damages resulting from the use, misuse, or inability to use this software, even if Eis S.r.l. has been advised of the possibility of such damages.
+Under no circumstances shall Hive s.r.l be liable for direct, indirect, special, incidental, or consequential damages resulting from the use, misuse, or inability to use this software, even if  Hive s.r.l has been advised of the possibility of such damages.
